@@ -1,0 +1,60 @@
+{
+  "dataset": {
+    "name": "DATASET_NAME",
+    "filename": "dataset_graph.csv",
+    "directed": false,
+    "time_format": "%d-%b-%Y",
+    "time_col": "time",
+    "src_col": "src",
+    "dst_col": "dst",
+    "weight_col": null,
+    "week_split": 0,
+    "day_split": 1,
+    "hour_split": 0,
+    "min_split": 0,
+    "sec_split": 0
+  },
+  "gt": {
+    "filename": "gt.csv"
+  },
+  "features": {
+    "max_connected": true,
+    "log": true
+  },
+  "feature_pair_picker": {
+    "num_pairs": 35,
+    "overlap_bar": 0.99
+  },
+  "beta_vectors": {
+    "_type_comment": "mean_regression/regression/motif_ratio",
+    "type": "mean_regression",
+    "window_size": 200
+  },
+  "score": {
+    "_type_comment": "gmm/knn/local_outlier",
+    "type": "gmm",
+    "window_size": 30,
+    "params": {
+      "gmm": {
+        "n_components": 4
+      },
+      "local_outlier": {
+        "n_neighbors": 4
+      },
+      "knn": {
+        "k": 4
+      }
+    }
+  },
+  "output": {
+    "beta_vectors": "beta.npy",
+    "dist_file_name": "dist_mat.npy",
+    "anomalies_file_name": "anomalies.csv"
+  },
+  "general": {
+    "logger_name": "default Anomaly logger",
+    "FORCE_REBUILD_FEATURES": false,
+    "dump_pkl": true,
+    "pkl_path": "path/to/dump/pkl"
+  }
+}
