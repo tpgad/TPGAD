@@ -1,7 +1,7 @@
 {
   "dataset": {
     "name": "New folder",
-    "filename": "C:\\Users\\kfirs\\lab\\TPGAD\\data\\SecRepo_auth_log.csv",
+    "filename": "TPGAD\\data\\SecRepo_auth_log.csv",
     "directed": true,
     "time_format": "%d_%m",
     "time_col": "time",
@@ -15,7 +15,7 @@
     "sec_split": 0
   },
   "gt": {
-    "filename": "C:\\Users\\kfirs\\lab\\TPGAD\\data\\SecRepo_gt.csv"
+    "filename": "TPGAD\\data\\SecRepo_gt.csv"
   },
   "features": {
     "max_connected": true,
@@ -55,6 +55,6 @@
     "logger_name": "default Anomaly logger",
     "FORCE_REBUILD_FEATURES": false,
     "dump_pkl": true,
-    "pkl_path": "C:\\Users\\kfirs\\lab\\TPGAD\\pkl"
+    "pkl_path": "TPGAD\\pkl"
   }
 }
