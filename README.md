@@ -38,7 +38,7 @@ graphs-package/temporal_graphs
 For running TPGAD follow the instruction below:
 ```
 1. Set the hyper-paramters in the TPGAD/graph-ad/params/X.json (X is the required dataset)
-2. Run TPGAD/graph-ad/anomaly_detection.py with the relevant data path
+2. From TPGAD/graph-ad run anomaly_detection.py with the relevant datasetes params path
 ```
 
 ## Results
