@@ -298,5 +298,4 @@ class DarpaParams:
         return gt_dict
 
 
-DEFAULT_PARAMS = AdParams(DarpaParams(), dataset_params, 'Darpa')
 # DEFAULT_PARAMS = AdParams(SecRepoParams(), dataset_params, 'SecRepo')
