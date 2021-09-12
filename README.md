@@ -13,7 +13,7 @@ $ pip install -r requirements.txt
 ```
 
 ## repository hirarchy
-Make the following directories a source root directory:
+Make the following directories a source root directories:
 ```
 graph-ad
 graph-ad/tools
@@ -36,7 +36,7 @@ graphs-package/temporal_graphs
 ## General Instructions
 For running TPGAD follow the instruction below:
 ```
-1. Set the hyper-paramters in the TPGAD/graph-ad/params/enron_param.json
+1. Set the hyper-paramters in the TPGAD/graph-ad/params/X.json (X is the required dataset)
 2. Run TPGAD/graph-ad/anomaly_detection.py with the relevant data path
 ```
 
