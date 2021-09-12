@@ -1,7 +1,7 @@
 {
   "dataset": {
     "name": "Darpa",
-    "filename": "TPGAD\\data\\darpa.csv",
+    "filename": "../data/darpa.csv",
     "directed": true,
     "time_format": "%m/%d/%Y-%H:%M",
     "time_col": "time",
@@ -15,7 +15,7 @@
     "sec_split": 0
   },
   "gt": {
-    "filename": "TPGAD\\data\\Darpa_gt.csv"
+    "filename": "../data/Darpa_gt.csv"
   },
   "features": {
     "max_connected": false,
@@ -49,6 +49,6 @@
   "general": {
     "FORCE_REBUILD_FEATURES": false,
     "dump_pkl": true,
-    "pkl_path": "TPGAD\\pkl"
+    "pkl_path": "../pkl"
   }
 }
