@@ -1,7 +1,7 @@
 {
   "dataset": {
     "name": "Enron_Inc",
-    "filename": "C:\\Users\\kfirs\\lab\\TPGAD\\data\\Enroninc_Old.csv",
+    "filename": "TPGAD\\data\\Enroninc_Old.csv",
     "directed": true,
     "time_format": "%d-%b-%Y",
     "time_col": "time",
@@ -15,7 +15,7 @@
     "sec_split": 0
   },
   "gt": {
-    "filename": "C:\\Users\\kfirs\\lab\\TPGAD\\data\\Enron_Inc_gt.csv"
+    "filename": "TPGAD\\data\\Enron_Inc_gt.csv"
   },
   "features": {
     "max_connected": false,
@@ -48,6 +48,6 @@
   "general": {
     "FORCE_REBUILD_FEATURES": false,
     "dump_pkl": false,
-    "pkl_path": "C:\\Users\\kfirs\\lab\\TPGAD\\pkl"
+    "pkl_path": "TPGAD\\pkl"
   }
 }
