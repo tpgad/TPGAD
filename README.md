@@ -21,10 +21,10 @@ For running a model X follow the instruction below:
 ## Results
 We show that TPGAD outperforms existing methods in multiple standard graph-based anomaly detection datasets.
 
-|    Dataset         | Accuracy      | Recall  | speceficity  |
+|    Dataset         | Accuracy      | Recall  | Specificity  |
 | -------------      |:-------------:| -----:|-----:|
 | Enron Inc.         | **96.35**     |**42.86**|**97.27**|
-| Reality Mining     | 62.2           |  **91.07**  |**48.52**|
+| Reality Mining     | 62.20           |  **91.07**  |**48.52**|
 | Tweitter Security  | **73.75**           |  **94.74**  |**67.21**|
 | Security Repository| 80.53       |  63.95  |**82.64**|
 
