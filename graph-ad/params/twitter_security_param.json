@@ -1,7 +1,7 @@
 {
   "dataset": {
     "name": "Twitter_Security",
-    "filename": "C:\\Users\\kfirs\\lab\\TPGAD\\data\\Twitter_security.csv",
+    "filename": "TPGAD\\data\\Twitter_security.csv",
     "directed": true,
     "time_format": "%d_%m",
     "time_col": "time",
@@ -15,7 +15,7 @@
     "sec_split": 0
   },
   "gt": {
-    "filename": "C:\\Users\\kfirs\\lab\\TPGAD\\data\\Twitter_Security_gt.csv"
+    "filename": "TPGAD\\data\\Twitter_Security_gt.csv"
   },
   "features": {
     "max_connected": false,
@@ -48,6 +48,6 @@
   "general": {
     "FORCE_REBUILD_FEATURES": false,
     "dump_pkl": true,
-    "pkl_path": "C:\\Users\\kfirs\\lab\\TPGAD\\pkl"
+    "pkl_path": "TPGAD\\pkl"
   }
 }
