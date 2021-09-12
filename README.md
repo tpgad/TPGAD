@@ -15,7 +15,8 @@ $ pip install -r requirements.txt
 ## General Instructions
 For running a model X follow the instruction below:
 ```
-1. Set the hyper-paramters in the X_search_space.json
+1. Set the hyper-paramters in the TPGAD/graph-ad/params/enron_param.json
+2. 
 ```
 
 ## Results
