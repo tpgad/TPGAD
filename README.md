@@ -12,6 +12,27 @@ $ cd TPGAD
 $ pip install -r requirements.txt
 ```
 
+## repository hirarchy
+Make the following directories a source root directory:
+```
+graph-ad
+graph-ad/tools
+graph-measures
+graph-measures/features_algorithms
+graph-measures/features_algorithms/accelerated_graph_features
+graph-measures/features_algorithms/edges
+graph-measures/features_algorithms/motif_variations
+graph-measures/features_algorithms/vertices
+graph-measures/features_infra
+graph-measures/features_meta
+graph-measures/graph_infra
+graphs-package
+graphs-package/features_processor
+graphs-package/GRAPHS_INPUT/multi_graph
+graphs-package/GRAPHS_INPUT/multi_graph/EnronInc_by_day
+graphs-package/multi_graph
+graphs-package/temporal_graphs
+```
 ## General Instructions
 For running TPGAD follow the instruction below:
 ```
