@@ -13,10 +13,10 @@ $ pip install -r requirements.txt
 ```
 
 ## General Instructions
-For running a model X follow the instruction below:
+For running TPGAD follow the instruction below:
 ```
 1. Set the hyper-paramters in the TPGAD/graph-ad/params/enron_param.json
-2. 
+2. Run TPGAD/graph-ad/anomaly_detection.py with the relevant data path
 ```
 
 ## Results
