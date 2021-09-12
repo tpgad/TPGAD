@@ -1,7 +1,7 @@
 {
   "dataset": {
     "name": "Reality_Mining",
-    "filename": "C:\\Users\\kfirs\\lab\\TPGAD\\data\\RealityMining.csv",
+    "filename": "TPGAD\\data\\RealityMining.csv",
     "directed": true,
     "time_format": "%d-%b-%Y",
     "time_col": "time",
@@ -15,7 +15,7 @@
     "sec_split": 0
   },
   "gt": {
-    "filename": "C:\\Users\\kfirs\\lab\\TPGAD\\data\\Reality_Mining_gt.csv"
+    "filename": "TPGAD\\data\\Reality_Mining_gt.csv"
   },
   "features": {
     "max_connected": false,
@@ -48,6 +48,6 @@
   "general": {
     "FORCE_REBUILD_FEATURES": false,
     "dump_pkl": true,
-    "pkl_path": "C:\\Users\\kfirs\\lab\\TPGAD\\pkl"
+    "pkl_path": "TPGAD\\pkl"
   }
 }
